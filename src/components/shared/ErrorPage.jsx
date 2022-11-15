@@ -14,7 +14,7 @@ const ErrorPage = () => {
       }}>
       <h1
         className="text-primary"
-        style={{ fontSize: "10rem", fontWeight: "800" }}>
+        style={{ fontSize: "8rem", fontWeight: "800" }}>
         Oops!
       </h1>
       <h1 style={{ fontWeight: "700" }}>404 - PAGE NOT FOUND</h1>
