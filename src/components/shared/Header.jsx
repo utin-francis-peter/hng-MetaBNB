@@ -15,7 +15,7 @@ const Header = () => {
 
       <nav>
         <ul className={`nav ${showMobNav ? "mobile__nav" : ""}`}>
-          <div className="text-end">
+          <div className="text-end me-1">
             <button
               className="close__mob__nav d-md-none fs-2"
               onClick={() => setShowMobNav(false)}>
