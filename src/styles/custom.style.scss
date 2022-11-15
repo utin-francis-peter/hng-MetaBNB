@@ -3,8 +3,20 @@
 @import "./helpers";
 @import "./global.style.scss";
 @import "./home-page.scss";
+@import "./header.scss";
+@import "./places-card.scss";
+@import "./place-to-stay.scss";
 @import "./footer.scss";
 
 html {
   font-family: "Red Rose", cursive;
+}
+
+.front__layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.front__layout__main {
+  flex: 1;
 }

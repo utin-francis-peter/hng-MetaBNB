@@ -1,0 +1,38 @@
+footer {
+  background: #000;
+  color: #fff;
+  .footer__inner {
+    padding: 3rem 0;
+    display: grid;
+
+    .socials {
+      display: flex;
+      width: 80px;
+    }
+
+    .footer__column1 {
+      @media screen and (min-width: 992px) {
+        margin-right: 10rem;
+      }
+    }
+
+    a {
+      color: $footer_nav;
+    }
+
+    // @media screen and (max-width: 768px) {
+    //   grid-template-columns: repeat(1, fr);
+    // }
+    @media screen and (max-width: 992px) {
+      text-align: center;
+      grid-template-columns: repeat(2, 1fr);
+      .socials,
+      .logo {
+        margin: auto;
+      }
+    }
+    @media screen and (min-width: 992px) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+}

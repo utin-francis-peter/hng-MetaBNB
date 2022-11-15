@@ -1,9 +1,31 @@
+.d-flex-between,
 .d-flex-center {
   display: flex;
   align-items: center;
+}
+.d-flex-center {
   justify-content: center;
 }
+.d-flex-between {
+  justify-content: space-between;
+}
 
-.text-primary {
-  color: #a02279;
+.btn-sm {
+  width: 156px;
+  height: 48px;
+  border-radius: 8px;
+}
+.btn-md {
+  width: 170px;
+  height: 48px;
+  border-radius: 10px;
+}
+.btn-lg {
+  width: 230px;
+  height: 54px;
+  border-radius: 0px 8px 8px 0px;
+}
+
+.logo {
+  width: 233px;
 }

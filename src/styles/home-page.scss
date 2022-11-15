@@ -1,0 +1,114 @@
+.home__page {
+  form {
+    height: 54px;
+  }
+
+  .hero {
+    &__inner {
+      article {
+        margin-bottom: 2rem;
+      }
+      .hero__desc {
+        &-title {
+          font-weight: 400;
+          font-size: 56px;
+          line-height: 140%;
+          letter-spacing: -0.02em;
+        }
+        &-details {
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 35px;
+        }
+      }
+
+      @media screen and (min-width: 992px) {
+        display: flex;
+        //   justify-content: space-between;
+        align-items: center;
+        gap: 4rem;
+
+        .hero__desc {
+          width: 646px;
+        }
+        .hero__img {
+          flex: 1;
+        }
+      }
+    }
+
+    &__footer {
+      padding: 1rem 0;
+      background: $primary;
+      // text-align: center;
+
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 2rem;
+
+      img {
+        // display: block;
+        height: 50px;
+        width: 222px;
+      }
+
+      @media screen and (max-width: 800px) {
+        // display: flex;
+        // justify-content: space-around;
+        // align-items: center;
+
+        img {
+          width: 130px;
+        }
+      }
+    }
+  }
+
+  .adventure__inspirations__wrapper {
+    .title {
+      font-weight: 700;
+      font-size: 48px;
+    }
+    .adventure__inspirations {
+      display: grid;
+      gap: 1.5rem;
+
+      @media screen and (max-width: 768px) {
+      }
+      @media screen and (max-width: 992px) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      @media screen and (min-width: 992px) {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+  }
+
+  .metabnb__nfts {
+    background: $primary;
+    color: #fff;
+    padding: 3rem 0;
+    &-inner {
+      .metabnb__nfts-desc {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 35px;
+      }
+
+      @media screen and (min-width: 992px) {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 3rem;
+
+        .metabnb__nfts-img {
+          flex: 1;
+        }
+        .metabnb__nfts-desc {
+          width: 45%;
+        }
+      }
+    }
+  }
+}

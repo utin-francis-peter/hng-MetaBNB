@@ -4,11 +4,11 @@ import Header from "../components/shared/Header";
 
 const FrontLayout = ({ children }) => {
   return (
-    <React.Fragment>
+    <div className="front__layout">
       <Header />
-      <main>{children}</main>
+      <main className="front__layout__main">{children}</main>
       <Footer />
-    </React.Fragment>
+    </div>
   );
 };
 
