@@ -59,7 +59,7 @@
         // align-items: center;
 
         img {
-          width: 130px;
+          width: 80px;
         }
       }
     }
@@ -74,11 +74,11 @@
       display: grid;
       gap: 1.5rem;
 
-      @media screen and (max-width: 768px) {
-        grid-template-columns: repeat(1, 1fr);
-      }
       @media screen and (max-width: 992px) {
         grid-template-columns: repeat(2, 1fr);
+      }
+      @media screen and (max-width: 768px) {
+        grid-template-columns: repeat(1, 1fr);
       }
       @media screen and (min-width: 992px) {
         grid-template-columns: repeat(4, 1fr);
@@ -95,6 +95,7 @@
         font-weight: 400;
         font-size: 18px;
         line-height: 35px;
+        margin-bottom: 3rem;
       }
 
       @media screen and (min-width: 992px) {
