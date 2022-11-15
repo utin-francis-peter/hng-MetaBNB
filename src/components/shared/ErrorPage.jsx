@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const ErrorPage = () => {
   return (
     <div
-      className="text-center"
+      className="container text-center"
       style={{
         minHeight: "100vh",
         display: "flex",
