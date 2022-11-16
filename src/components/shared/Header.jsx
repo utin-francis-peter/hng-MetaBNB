@@ -42,7 +42,10 @@ const Header = () => {
 
             <button
               className="btn-md bg-primary text-light d-block d-md-none m-auto"
-              onClick={() => handleModalToggle()}>
+              onClick={() => {
+                handleModalToggle();
+                setShowMobNav(false);
+              }}>
               Connect wallet
             </button>
           </ul>
@@ -50,7 +53,10 @@ const Header = () => {
 
         <button
           className="btn-md bg-primary text-light d-none d-lg-block"
-          onClick={() => handleModalToggle()}>
+          onClick={() => {
+            handleModalToggle();
+            setShowMobNav(false);
+          }}>
           Connect wallet
         </button>
 
