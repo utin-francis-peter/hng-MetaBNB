@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import PlacesCard from "../components/shared/PlacesCard";
 import { PlacesHome } from "../data/places";
 import FrontLayout from "../layouts/FrontLayout";
 
 const HomePage = () => {
-  const [showModal, setShowModal] = useState(false);
   return (
     <FrontLayout>
       <main className="home__page">
